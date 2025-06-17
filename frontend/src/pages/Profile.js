@@ -270,7 +270,7 @@ const Profile = () => {
                     <img src={previewImage} alt="Preview" className="w-full h-full object-cover" />
                   ) : user.profile_pic ? (
                     <img 
-                      src={`http://localhost:5000${user.profile_pic}`} 
+                      src={`https://campus-connect-ph1q.onrender.com${user.profile_pic}`} 
                       alt={user.name} 
                       className="w-full h-full object-cover"
                     />
@@ -299,7 +299,7 @@ const Profile = () => {
                 <div className="w-32 h-32 rounded-full overflow-hidden">
                   {user.profile_pic ? (
                     <img 
-                      src={`http://localhost:5000${user.profile_pic}`} 
+                      src={`https://campus-connect-ph1q.onrender.com${user.profile_pic}`} 
                       alt={user.name} 
                       className="w-full h-full object-cover"
                     />
@@ -603,7 +603,7 @@ const Profile = () => {
                       <div className="h-40 bg-gray-200 dark:bg-gray-700 relative">
                         {listing.images && listing.images.length > 0 ? (
                           <img 
-                            src={`http://localhost:5000${listing.images[0]}`} 
+                            src={`https://campus-connect-ph1q.onrender.com${listing.images[0]}`} 
                             alt={listing.title} 
                             className="w-full h-full object-cover"
                           />
