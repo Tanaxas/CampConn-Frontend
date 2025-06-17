@@ -94,7 +94,7 @@ const Profile = () => {
       }
       
       // Update user profile using API
-      const response = await fetch('http://localhost:5000/api/users/profile', {
+      const response = await fetch('https://campus-connect-ph1q.onrender.com/api/users/profile', {
         method: 'PUT',
         headers: {
           'Authorization': `Bearer ${localStorage.getItem('token')}`
