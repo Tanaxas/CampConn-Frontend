@@ -67,7 +67,7 @@ const Navbar = () => {
               <Link to="/profile" className="mr-3 flex items-center hover:text-hit-secondary">
                 {user.profile_pic ? (
                   <img
-                    src={`http://localhost:5000${user.profile_pic}`}
+                    src={`https://campus-connect-ph1q.onrender.com${user.profile_pic}`}
                     alt="Profile"
                     className="w-8 h-8 rounded-full object-cover mr-1"
                   />
