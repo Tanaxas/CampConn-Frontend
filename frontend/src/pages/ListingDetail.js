@@ -257,7 +257,7 @@ const ListingDetails = () => {
                 <div className="flex items-start">
                   {review.reviewer_pic ? (
                     <img 
-                      src={`http://localhost:5000${review.reviewer_pic}`} 
+                      src={`https://campus-connect-ph1q.onrender.com${review.reviewer_pic}`} 
                       alt={review.reviewer_name} 
                       className="w-10 h-10 rounded-full object-cover mr-3"
                     />
