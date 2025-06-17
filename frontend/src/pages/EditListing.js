@@ -340,7 +340,7 @@ const EditListing = () => {
                   {existingImages.map((image, index) => (
                     <div key={index} className="relative">
                       <img 
-                        src={`http://localhost:5000${image}`} 
+                        src={`https://campus-connect-ph1q.onrender.com${image}`} 
                         alt={`Image ${index + 1}`} 
                         className="w-full h-24 object-cover rounded-lg"
                       />
