@@ -4,7 +4,7 @@ let socket = null;
 
 export const connectSocket = (userId) => {
   if (!socket) {
-    socket = io('http://localhost:5000');
+    socket = io('https://campus-connect-ph1q.onrender.com');
     
     socket.on('connect', () => {
       console.log('Connected to socket server');
