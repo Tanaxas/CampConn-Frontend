@@ -191,7 +191,7 @@ const Home = () => {
                   {listing.images && listing.images.length > 0 ? (
                     <div className="h-48 bg-gray-300 relative">
                       <img 
-                        src={`http://localhost:5000${listing.images[0]}`} 
+                        src={`https://campus-connect-ph1q.onrender.com${listing.images[0]}`} 
                         alt={listing.title} 
                         className="h-full w-full object-cover"
                       />
@@ -247,7 +247,7 @@ const Home = () => {
                     <div className="flex items-center">
                       {listing.seller_profile_pic ? (
                         <img 
-                          src={`http://localhost:5000${listing.seller_profile_pic}`} 
+                          src={`https://campus-connect-ph1q.onrender.com${listing.seller_profile_pic}`} 
                           alt={listing.seller_name} 
                           className="w-6 h-6 rounded-full object-cover mr-2"
                         />

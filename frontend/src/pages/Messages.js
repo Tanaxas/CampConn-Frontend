@@ -339,7 +339,7 @@ const handleSendMessage = async (e) => {
                         <div className="relative">
                           {otherParticipant.profile_pic ? (
                             <img
-                              src={`http://localhost:5000${otherParticipant.profile_pic}`}
+                              src={`https://campus-connect-ph1q.onrender.com${otherParticipant.profile_pic}`}
                               alt={otherParticipant.name}
                               className="w-10 h-10 rounded-full object-cover"
                             />
@@ -391,7 +391,7 @@ const handleSendMessage = async (e) => {
                 <div className="p-4 border-b border-gray-200 dark:border-gray-700 flex items-center">
                   {activeConversation.participants[0].profile_pic ? (
                     <img
-                      src={`http://localhost:5000${activeConversation.participants[0].profile_pic}`}
+                      src={`https://campus-connect-ph1q.onrender.com${activeConversation.participants[0].profile_pic}`}
                       alt={activeConversation.participants[0].name}
                       className="w-10 h-10 rounded-full object-cover"
                     />

@@ -212,7 +212,7 @@ const ListingDetails = () => {
           <div className="md:w-1/2 p-4">
             <div className="aspect-w-4 aspect-h-3 mb-4 bg-gray-200 rounded-lg overflow-hidden">
               {listing.images?.length ? (
-                <img src={`http://localhost:5000${listing.images[activeImageIndex]}`} alt={listing.title} className="w-full h-full object-contain" />
+                <img src={`https://campus-connect-ph1q.onrender.com${listing.images[activeImageIndex]}`} alt={listing.title} className="w-full h-full object-contain" />
               ) : (
                 <div className="w-full h-full flex justify-center items-center text-white text-5xl" style={{ backgroundColor: getRandomColor(listing.title) }}>
                   {getInitials(listing.title)}
@@ -224,7 +224,7 @@ const ListingDetails = () => {
               <div className="flex gap-2 flex-wrap">
                 {listing.images.map((img, idx) => (
                   <button key={idx} onClick={() => setActiveImageIndex(idx)} className={`w-16 h-16 rounded-md overflow-hidden border-2 ${activeImageIndex === idx ? 'border-primary-color' : 'border-transparent'}`}>
-                    <img src={`http://localhost:5000${img}`} alt="" className="w-full h-full object-cover" />
+                    <img src={`https://campus-connect-ph1q.onrender.com${img}`} alt="" className="w-full h-full object-cover" />
                   </button>
                 ))}
               </div>
@@ -246,7 +246,7 @@ const ListingDetails = () => {
             {/* Seller Info */}
             <div className="border-t pt-4 mt-4 flex items-center gap-3">
               {listing.seller_profile_pic ? (
-                <img src={`http://localhost:5000${listing.seller_profile_pic}`} alt="" className="w-10 h-10 rounded-full object-cover" />
+                <img src={`https://campus-connect-ph1q.onrender.com${listing.seller_profile_pic}`} alt="" className="w-10 h-10 rounded-full object-cover" />
               ) : (
                 <div className="w-10 h-10 rounded-full flex items-center justify-center text-white" style={{ backgroundColor: getRandomColor(listing.seller_name) }}>
                   {getInitials(listing.seller_name)}
@@ -309,7 +309,7 @@ const ListingDetails = () => {
             <div key={review.id} className="border-t pt-4 mt-4">
               <div className="flex items-start">
                 {review.reviewer_pic ? (
-                  <img src={`http://localhost:5000${review.reviewer_pic}`} alt="" className="w-10 h-10 rounded-full mr-3" />
+                  <img src={`https://campus-connect-ph1q.onrender.com${review.reviewer_pic}`} alt="" className="w-10 h-10 rounded-full mr-3" />
                 ) : (
                   <div className="w-10 h-10 rounded-full flex items-center justify-center text-white mr-3" style={{ backgroundColor: getRandomColor(review.reviewer_name) }}>
                     {getInitials(review.reviewer_name)}

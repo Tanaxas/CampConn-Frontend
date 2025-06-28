@@ -254,7 +254,7 @@ const PendingListings = () => {
               <div className="md:w-1/4 h-48 bg-gray-200 dark:bg-gray-700 relative">
                 {listing.images && listing.images.length > 0 ? (
                   <img 
-                    src={`http://localhost:5000${listing.images[0]}`} 
+                    src={`https://campus-connect-ph1q.onrender.com${listing.images[0]}`} 
                     alt={listing.title} 
                     className="w-full h-full object-cover"
                   />
@@ -289,7 +289,7 @@ const PendingListings = () => {
                   <div className="flex items-center mb-4">
                     {listing.seller_profile_pic ? (
                       <img 
-                        src={`http://localhost:5000${listing.seller_profile_pic}`} 
+                        src={`https://campus-connect-ph1q.onrender.com${listing.seller_profile_pic}`} 
                         alt={listing.seller_name} 
                         className="w-8 h-8 rounded-full object-cover mr-2"
                       />
@@ -484,7 +484,7 @@ const UserManagement = () => {
                 <td className="px-6 py-4 whitespace-nowrap">
                   <div className="flex items-center">
                     {user.profile_pic ? (
-                      <img src={`http://localhost:5000${user.profile_pic}`} alt={user.name} className="w-10 h-10 rounded-full object-cover" />
+                      <img src={`https://campus-connect-ph1q.onrender.com${user.profile_pic}`} alt={user.name} className="w-10 h-10 rounded-full object-cover" />
                     ) : (
                       <div 
                         className="w-10 h-10 rounded-full flex items-center justify-center text-white"
