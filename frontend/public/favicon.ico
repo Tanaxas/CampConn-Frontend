@@ -1,0 +1,13 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://code.jquery.com https://unpkg.com https://d3js.org https://threejs.org https://cdn.plot.ly https://stackpath.bootstrapcdn.com https://maps.googleapis.com https://cdn.tailwindcss.com https://ajax.googleapis.com https://kit.fontawesome.com https://cdn.datatables.net https://maxcdn.bootstrapcdn.com https://code.highcharts.com https://tako-static-assets-production.s3.amazonaws.com https://www.youtube.com https://fonts.googleapis.com https://fonts.gstatic.com https://pfst.cf2.poecdn.net https://puc.poecdn.net https://i.imgur.com https://wikimedia.org https://*.icons8.com https://*.giphy.com https://picsum.photos https://images.unsplash.com; frame-src 'self' https://www.youtube.com https://trytako.com; child-src 'self'; manifest-src 'self'; worker-src 'self'; upgrade-insecure-requests; block-all-mixed-content;"></head><body><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="45" fill="#005511"></circle>
+  
+  <!-- Shopping cart icon -->
+  <path d="M25 25h10l8 25h25l-5-15h-20" stroke="#f8b800" stroke-width="3" fill="none"></path>
+  <circle cx="35" cy="70" r="3" fill="#f8b800"></circle>
+  <circle cx="60" cy="70" r="3" fill="#f8b800"></circle>
+  
+  <!-- Campus Connect initials -->
+  <text x="50" y="85" text-anchor="middle" font-size="12" fill="#f8b800" font-family="Arial, sans-serif" font-weight="bold">CC</text>
+</svg>
+</body></html>
